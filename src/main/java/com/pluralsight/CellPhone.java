@@ -58,4 +58,17 @@ public class CellPhone {
     public void setOwner(String owner) {
         this.owner = owner;
     }
+   /*public String getNumberToCall() {
+        return numberToCall;
+    }
+
+    public void setNumberToCall(String numberToCall) {
+        this.numberToCall = numberToCall;
+    }*/
+
+    //Methods
+    public void dial(String numberToCall) {
+        System.out.println(this.owner + "'s phone is calling: " + numberToCall);
+
+    }
 }
